@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e2bca1e0bdce082a62f28fa663be3c5c",
+    "content-hash": "88ed133f135a44fa4d1dd002bcd7e8e7",
     "packages": [
         {
             "name": "axy/backtrace",
@@ -184,16 +184,16 @@
         },
         {
             "name": "components/font-awesome",
-            "version": "5.9.0",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/components/font-awesome.git",
-                "reference": "1be57c473b964c8130f2dbd9edc4f64db5394114"
+                "reference": "f033e952d0e20684443c0466045deae61fd4e733"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/components/font-awesome/zipball/1be57c473b964c8130f2dbd9edc4f64db5394114",
-                "reference": "1be57c473b964c8130f2dbd9edc4f64db5394114",
+                "url": "https://api.github.com/repos/components/font-awesome/zipball/f033e952d0e20684443c0466045deae61fd4e733",
+                "reference": "f033e952d0e20684443c0466045deae61fd4e733",
                 "shasum": ""
             },
             "type": "component",
@@ -215,7 +215,7 @@
                 "OFL-1.1"
             ],
             "description": "Font Awesome, the iconic SVG, font, and CSS framework.",
-            "time": "2019-06-07T02:02:10+00:00"
+            "time": "2020-02-05T15:33:46+00:00"
         },
         {
             "name": "dflydev/fig-cookies",
@@ -5894,6 +5894,58 @@
             "time": "2016-03-31T09:25:28+00:00"
         },
         {
+            "name": "tpokorra/flarum-ext-post-notification",
+            "version": "0.3.6",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/tpokorra/flarum-ext-post-notification.git",
+                "reference": "2cdd619b509c88eb981fba42129c349c9485e70b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/tpokorra/flarum-ext-post-notification/zipball/2cdd619b509c88eb981fba42129c349c9485e70b",
+                "reference": "2cdd619b509c88eb981fba42129c349c9485e70b",
+                "shasum": ""
+            },
+            "require": {
+                "flarum/core": ">=0.1.0-beta.10 <0.1.0-beta.12"
+            },
+            "type": "flarum-extension",
+            "extra": {
+                "flarum-extension": {
+                    "title": "Post Notification",
+                    "icon": {
+                        "name": "fas fa-reply-all",
+                        "backgroundColor": "#f4f4f4",
+                        "color": "#5f4bb6"
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "tpokorra\\PostNotification\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "mit"
+            ],
+            "authors": [
+                {
+                    "name": "Timotheus Pokorra",
+                    "email": "timotheus.pokorra@solidcharity.com",
+                    "homepage": "http://www.pokorra.de"
+                }
+            ],
+            "description": "Send email notification for each post written or modified",
+            "keywords": [
+                "extension",
+                "flarum",
+                "notifications"
+            ],
+            "time": "2019-11-12T05:50:56+00:00"
+        },
+        {
             "name": "zendframework/zend-diactoros",
             "version": "1.8.7",
             "source": {
@@ -6127,9 +6179,18 @@
         }
     ],
     "packages-dev": [],
-    "aliases": [],
+    "aliases": [
+        {
+            "alias": "5.9.100",
+            "alias_normalized": "5.9.100.0",
+            "version": "9999999-dev",
+            "package": "components/font-awesome"
+        }
+    ],
     "minimum-stability": "beta",
-    "stability-flags": [],
+    "stability-flags": {
+        "components/font-awesome": 20
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": [],

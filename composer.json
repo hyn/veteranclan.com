@@ -43,6 +43,7 @@
         "fof/upload": "*",
         "reflar/doorman": "*",
         "sijad/flarum-ext-auth-steam": "*",
+        "tpokorra/flarum-ext-post-notification": "*",
         "components/font-awesome": "dev-master as 5.9.100"
     },
     "config": {
