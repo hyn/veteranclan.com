@@ -42,7 +42,8 @@
         "fof/default-user-preferences": "*",
         "fof/upload": "*",
         "reflar/doorman": "*",
-        "sijad/flarum-ext-auth-steam": "*"
+        "sijad/flarum-ext-auth-steam": "*",
+        "components/font-awesome": "dev-master as 5.9.100"
     },
     "config": {
         "preferred-install": "dist",
