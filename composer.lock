@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "88ed133f135a44fa4d1dd002bcd7e8e7",
+    "content-hash": "e3b613e7b8d9f18f19ea878bb67fdd2b",
     "packages": [
         {
             "name": "axy/backtrace",
@@ -1888,6 +1888,70 @@
                 "flarum"
             ],
             "time": "2019-12-06T20:18:19+00:00"
+        },
+        {
+            "name": "fof/subscribed",
+            "version": "0.2.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/FriendsOfFlarum/subscribed.git",
+                "reference": "4948adb8d87b719fb7aa3d331fc7602909bd5dfb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/FriendsOfFlarum/subscribed/zipball/4948adb8d87b719fb7aa3d331fc7602909bd5dfb",
+                "reference": "4948adb8d87b719fb7aa3d331fc7602909bd5dfb",
+                "shasum": ""
+            },
+            "require": {
+                "flarum/core": "^0.1.0-beta.9"
+            },
+            "replace": {
+                "flagrow/subscribed": "*"
+            },
+            "type": "flarum-extension",
+            "extra": {
+                "flarum-extension": {
+                    "title": "FoF Subscribed",
+                    "icon": {
+                        "name": "fas fa-reply-all",
+                        "backgroundColor": "#e74c3c",
+                        "color": "#fff"
+                    }
+                },
+                "flagrow": {
+                    "discuss": "https://discuss.flarum.org/d/6460"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "FoF\\Subscribed\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Daniël Klabbers",
+                    "email": "daniel@klabbers.email",
+                    "homepage": "http://luceos.com"
+                },
+                {
+                    "name": "Christian Lopez",
+                    "email": "Lopez.T.Christian@gmail.com"
+                }
+            ],
+            "description": "Better user subscriptions for your Flarum forum",
+            "keywords": [
+                "extension",
+                "flarum",
+                "fof",
+                "friendsofflarum",
+                "subscriptions"
+            ],
+            "time": "2019-11-02T21:09:26+00:00"
         },
         {
             "name": "fof/upload",
@@ -5892,58 +5956,6 @@
                 "standard"
             ],
             "time": "2016-03-31T09:25:28+00:00"
-        },
-        {
-            "name": "tpokorra/flarum-ext-post-notification",
-            "version": "0.3.6",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/tpokorra/flarum-ext-post-notification.git",
-                "reference": "2cdd619b509c88eb981fba42129c349c9485e70b"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/tpokorra/flarum-ext-post-notification/zipball/2cdd619b509c88eb981fba42129c349c9485e70b",
-                "reference": "2cdd619b509c88eb981fba42129c349c9485e70b",
-                "shasum": ""
-            },
-            "require": {
-                "flarum/core": ">=0.1.0-beta.10 <0.1.0-beta.12"
-            },
-            "type": "flarum-extension",
-            "extra": {
-                "flarum-extension": {
-                    "title": "Post Notification",
-                    "icon": {
-                        "name": "fas fa-reply-all",
-                        "backgroundColor": "#f4f4f4",
-                        "color": "#5f4bb6"
-                    }
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "tpokorra\\PostNotification\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "mit"
-            ],
-            "authors": [
-                {
-                    "name": "Timotheus Pokorra",
-                    "email": "timotheus.pokorra@solidcharity.com",
-                    "homepage": "http://www.pokorra.de"
-                }
-            ],
-            "description": "Send email notification for each post written or modified",
-            "keywords": [
-                "extension",
-                "flarum",
-                "notifications"
-            ],
-            "time": "2019-11-12T05:50:56+00:00"
         },
         {
             "name": "zendframework/zend-diactoros",
