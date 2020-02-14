@@ -44,6 +44,7 @@
         "reflar/doorman": "*",
         "sijad/flarum-ext-auth-steam": "*",
         "fof/subscribed": "*",
+        "amaurycarrade/flarum-ext-syndication": "*",
         "components/font-awesome": "dev-master as 5.9.100"
     },
     "config": {
